@@ -1,0 +1,2001 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.5f1 (9674261d40ee) revision 9860134'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'en' Physical Memory: 16088 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+D:/Unity Projects/SceneManager
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50031
+Successfully changed project path to: D:/Unity Projects/SceneManager
+D:/Unity Projects/SceneManager
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17536] Host "[IP] 192.168.100.161 [Port] 0 [Flags] 2 [Guid] 556488553 [EditorId] 556488553 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UGLUHPN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [17536] Host "[IP] 192.168.100.161 [Port] 0 [Flags] 2 [Guid] 556488553 [EditorId] 556488553 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UGLUHPN) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 2741.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.5f1 (9674261d40ee)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity Projects/SceneManager/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Ti Laptop GPU (ID=0x25a0)
+    Vendor:   NVIDIA
+    VRAM:     3976 MB
+    Driver:   31.0.15.3667
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56332
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.580435 seconds.
+- Loaded All Assemblies, in 11.908 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 581 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.473 seconds
+Domain Reload Profiling: 13378ms
+	BeginReloadAssembly (8150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (847ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (688ms)
+	LoadAllAssembliesAndSetupDomain (2198ms)
+		LoadAssemblies (8139ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (2184ms)
+			TypeCache.Refresh (2182ms)
+				TypeCache.ScanAssembly (1712ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1474ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1353ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1016ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (189ms)
+			ProcessInitializeOnLoadMethodAttributes (129ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in 12.130 seconds
+Refreshing native plugins compatible for Editor in 3.25 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.153 seconds
+Domain Reload Profiling: 13280ms
+	BeginReloadAssembly (279ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (40ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (98ms)
+	LoadAllAssembliesAndSetupDomain (11652ms)
+		LoadAssemblies (10419ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1372ms)
+			TypeCache.Refresh (1334ms)
+				TypeCache.ScanAssembly (1207ms)
+			ScanForSourceGeneratedMonoScriptInfo (32ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1154ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (840ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (81ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (136ms)
+			ProcessInitializeOnLoadAttributes (545ms)
+			ProcessInitializeOnLoadMethodAttributes (48ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 3.46 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3067 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (56.3 KB). Loaded Objects now: 3534.
+Memory consumption went from 122.2 MB to 122.2 MB.
+Total: 6.293000 ms (FindLiveObjects: 0.406300 ms CreateObjectMapping: 0.236600 ms MarkObjects: 5.462800 ms  DeleteObjects: 0.185300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 45103.423189 seconds.
+  path: Assets/Scenes/_MainMenu.unity
+  artifactKey: Guid(6e69bcd07821a874fa204649dba248e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/_MainMenu.unity using Guid(6e69bcd07821a874fa204649dba248e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871d5ea867fcc704115669496a3d622c') in 0.004352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  3.205 seconds
+Refreshing native plugins compatible for Editor in 3.55 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.612 seconds
+Domain Reload Profiling: 4602ms
+	BeginReloadAssembly (450ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (153ms)
+	RebuildCommonClasses (525ms)
+	RebuildNativeTypeToScriptingClass (224ms)
+	initialDomainReloadingComplete (292ms)
+	LoadAllAssembliesAndSetupDomain (1498ms)
+		LoadAssemblies (1041ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (653ms)
+			TypeCache.Refresh (640ms)
+				TypeCache.ScanAssembly (623ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1613ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (772ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (57ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (121ms)
+			ProcessInitializeOnLoadAttributes (499ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 5.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 22 unused Assets / (30.6 KB). Loaded Objects now: 3538.
+Memory consumption went from 120.3 MB to 120.3 MB.
+Total: 9.519900 ms (FindLiveObjects: 0.394300 ms CreateObjectMapping: 0.205600 ms MarkObjects: 8.800800 ms  DeleteObjects: 0.116100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.288 seconds
+Refreshing native plugins compatible for Editor in 3.41 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.373 seconds
+Domain Reload Profiling: 2656ms
+	BeginReloadAssembly (242ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (898ms)
+		LoadAssemblies (507ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (513ms)
+			TypeCache.Refresh (489ms)
+				TypeCache.ScanAssembly (471ms)
+			ScanForSourceGeneratedMonoScriptInfo (16ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1374ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (750ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (126ms)
+			ProcessInitializeOnLoadAttributes (521ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 3.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3101 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (35.3 KB). Loaded Objects now: 3573.
+Memory consumption went from 121.9 MB to 121.9 MB.
+Total: 5.233000 ms (FindLiveObjects: 0.352700 ms CreateObjectMapping: 0.177300 ms MarkObjects: 4.620500 ms  DeleteObjects: 0.080500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.384 seconds
+Refreshing native plugins compatible for Editor in 3.86 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.375 seconds
+Domain Reload Profiling: 2754ms
+	BeginReloadAssembly (243ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (60ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (976ms)
+		LoadAssemblies (534ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (554ms)
+			TypeCache.Refresh (544ms)
+				TypeCache.ScanAssembly (526ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1376ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (757ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (115ms)
+			ProcessInitializeOnLoadAttributes (533ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 3.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (35.4 KB). Loaded Objects now: 3577.
+Memory consumption went from 121.9 MB to 121.9 MB.
+Total: 6.355000 ms (FindLiveObjects: 0.433300 ms CreateObjectMapping: 0.219000 ms MarkObjects: 5.573800 ms  DeleteObjects: 0.126900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.392 seconds
+Refreshing native plugins compatible for Editor in 3.48 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.610 seconds
+Domain Reload Profiling: 2998ms
+	BeginReloadAssembly (288ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (944ms)
+		LoadAssemblies (531ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (543ms)
+			TypeCache.Refresh (534ms)
+				TypeCache.ScanAssembly (516ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1611ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (867ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (619ms)
+			ProcessInitializeOnLoadMethodAttributes (38ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 3.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3102 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (35.4 KB). Loaded Objects now: 3580.
+Memory consumption went from 121.9 MB to 121.9 MB.
+Total: 5.572600 ms (FindLiveObjects: 0.364100 ms CreateObjectMapping: 0.175900 ms MarkObjects: 4.944700 ms  DeleteObjects: 0.086000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.386 seconds
+Refreshing native plugins compatible for Editor in 2.84 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.713 seconds
+Domain Reload Profiling: 3096ms
+	BeginReloadAssembly (290ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (951ms)
+		LoadAssemblies (515ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (554ms)
+			TypeCache.Refresh (528ms)
+				TypeCache.ScanAssembly (512ms)
+			ScanForSourceGeneratedMonoScriptInfo (18ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1713ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (780ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (555ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (12ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (35.4 KB). Loaded Objects now: 3597.
+Memory consumption went from 122.3 MB to 122.3 MB.
+Total: 6.231500 ms (FindLiveObjects: 0.392100 ms CreateObjectMapping: 0.167300 ms MarkObjects: 5.582900 ms  DeleteObjects: 0.087400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.497 seconds
+Refreshing native plugins compatible for Editor in 9.00 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.374 seconds
+Domain Reload Profiling: 2869ms
+	BeginReloadAssembly (270ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (1060ms)
+		LoadAssemblies (627ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (553ms)
+			TypeCache.Refresh (512ms)
+				TypeCache.ScanAssembly (492ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1376ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (748ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (51ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (534ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 3.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3112 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (35.9 KB). Loaded Objects now: 3599.
+Memory consumption went from 122.3 MB to 122.2 MB.
+Total: 5.311300 ms (FindLiveObjects: 0.389800 ms CreateObjectMapping: 0.211500 ms MarkObjects: 4.622900 ms  DeleteObjects: 0.084600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.441 seconds
+Refreshing native plugins compatible for Editor in 2.83 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.340 seconds
+Domain Reload Profiling: 2777ms
+	BeginReloadAssembly (259ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (1047ms)
+		LoadAssemblies (638ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (533ms)
+			TypeCache.Refresh (522ms)
+				TypeCache.ScanAssembly (506ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1341ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (764ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (47ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (124ms)
+			ProcessInitializeOnLoadAttributes (520ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3112 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (35.5 KB). Loaded Objects now: 3602.
+Memory consumption went from 122.3 MB to 122.2 MB.
+Total: 5.192300 ms (FindLiveObjects: 0.347500 ms CreateObjectMapping: 0.166600 ms MarkObjects: 4.590700 ms  DeleteObjects: 0.085800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.458 seconds
+Refreshing native plugins compatible for Editor in 3.14 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.442 seconds
+Domain Reload Profiling: 2898ms
+	BeginReloadAssembly (279ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (72ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (1015ms)
+		LoadAssemblies (631ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (513ms)
+			TypeCache.Refresh (503ms)
+				TypeCache.ScanAssembly (486ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1444ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (818ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (49ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (110ms)
+			ProcessInitializeOnLoadAttributes (537ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (24ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 4.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3112 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (35.3 KB). Loaded Objects now: 3605.
+Memory consumption went from 122.3 MB to 122.2 MB.
+Total: 5.797600 ms (FindLiveObjects: 0.338900 ms CreateObjectMapping: 0.144500 ms MarkObjects: 5.222000 ms  DeleteObjects: 0.090700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.500 seconds
+Refreshing native plugins compatible for Editor in 3.85 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.418 seconds
+Domain Reload Profiling: 2914ms
+	BeginReloadAssembly (271ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (1069ms)
+		LoadAssemblies (638ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (559ms)
+			TypeCache.Refresh (537ms)
+				TypeCache.ScanAssembly (513ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1419ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (806ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (49ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (557ms)
+			ProcessInitializeOnLoadMethodAttributes (46ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+Refreshing native plugins compatible for Editor in 4.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3112 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (35.6 KB). Loaded Objects now: 3608.
+Memory consumption went from 122.3 MB to 122.3 MB.
+Total: 5.817800 ms (FindLiveObjects: 0.383400 ms CreateObjectMapping: 0.183100 ms MarkObjects: 5.151700 ms  DeleteObjects: 0.097100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.379 seconds
+Refreshing native plugins compatible for Editor in 2.95 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.325 seconds
+Domain Reload Profiling: 2702ms
+	BeginReloadAssembly (256ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (11ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (25ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (983ms)
+		LoadAssemblies (603ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (502ms)
+			TypeCache.Refresh (491ms)
+				TypeCache.ScanAssembly (475ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1326ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (737ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (106ms)
+			ProcessInitializeOnLoadAttributes (518ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (19ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 3.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3112 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (35.5 KB). Loaded Objects now: 3611.
+Memory consumption went from 122.3 MB to 122.3 MB.
+Total: 5.356200 ms (FindLiveObjects: 0.391600 ms CreateObjectMapping: 0.176500 ms MarkObjects: 4.710300 ms  DeleteObjects: 0.076100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.447 seconds
+Refreshing native plugins compatible for Editor in 3.10 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.393 seconds
+Domain Reload Profiling: 2834ms
+	BeginReloadAssembly (245ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (1028ms)
+		LoadAssemblies (615ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (523ms)
+			TypeCache.Refresh (511ms)
+				TypeCache.ScanAssembly (494ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1394ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (786ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (52ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (556ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (17ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 4.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3112 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (36.5 KB). Loaded Objects now: 3614.
+Memory consumption went from 122.3 MB to 122.3 MB.
+Total: 5.126900 ms (FindLiveObjects: 0.356300 ms CreateObjectMapping: 0.166200 ms MarkObjects: 4.511600 ms  DeleteObjects: 0.091000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.440 seconds
+Refreshing native plugins compatible for Editor in 4.05 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.352 seconds
+Domain Reload Profiling: 2787ms
+	BeginReloadAssembly (271ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (65ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (70ms)
+	LoadAllAssembliesAndSetupDomain (1008ms)
+		LoadAssemblies (639ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (509ms)
+			TypeCache.Refresh (498ms)
+				TypeCache.ScanAssembly (480ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1353ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (748ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (530ms)
+			ProcessInitializeOnLoadMethodAttributes (32ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (10ms)
+Refreshing native plugins compatible for Editor in 3.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3112 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (35.5 KB). Loaded Objects now: 3617.
+Memory consumption went from 122.3 MB to 122.3 MB.
+Total: 6.822000 ms (FindLiveObjects: 0.413300 ms CreateObjectMapping: 0.178400 ms MarkObjects: 6.115800 ms  DeleteObjects: 0.112600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.387 seconds
+Refreshing native plugins compatible for Editor in 2.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.331 seconds
+Domain Reload Profiling: 2715ms
+	BeginReloadAssembly (261ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (62ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (988ms)
+		LoadAssemblies (587ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (530ms)
+			TypeCache.Refresh (519ms)
+				TypeCache.ScanAssembly (503ms)
+			ScanForSourceGeneratedMonoScriptInfo (3ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1332ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (753ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (519ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 4.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3112 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (35.5 KB). Loaded Objects now: 3620.
+Memory consumption went from 122.3 MB to 122.3 MB.
+Total: 6.704900 ms (FindLiveObjects: 0.439400 ms CreateObjectMapping: 0.228600 ms MarkObjects: 5.930100 ms  DeleteObjects: 0.104300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.438 seconds
+Refreshing native plugins compatible for Editor in 3.18 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.357 seconds
+Domain Reload Profiling: 2792ms
+	BeginReloadAssembly (253ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (63ms)
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (1027ms)
+		LoadAssemblies (612ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (530ms)
+			TypeCache.Refresh (519ms)
+				TypeCache.ScanAssembly (501ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1358ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (762ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (50ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (546ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 4.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3112 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (35.4 KB). Loaded Objects now: 3623.
+Memory consumption went from 122.3 MB to 122.3 MB.
+Total: 4.821700 ms (FindLiveObjects: 0.361000 ms CreateObjectMapping: 0.136200 ms MarkObjects: 4.244400 ms  DeleteObjects: 0.079100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.471 seconds
+Refreshing native plugins compatible for Editor in 3.30 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.324 seconds
+Domain Reload Profiling: 2792ms
+	BeginReloadAssembly (280ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (62ms)
+	RebuildNativeTypeToScriptingClass (21ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (1045ms)
+		LoadAssemblies (671ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (514ms)
+			TypeCache.Refresh (503ms)
+				TypeCache.ScanAssembly (482ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1325ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (744ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (62ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (107ms)
+			ProcessInitializeOnLoadAttributes (506ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (20ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 4.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (35.5 KB). Loaded Objects now: 3627.
+Memory consumption went from 122.3 MB to 122.3 MB.
+Total: 5.577300 ms (FindLiveObjects: 0.390200 ms CreateObjectMapping: 0.276100 ms MarkObjects: 4.822000 ms  DeleteObjects: 0.087100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.849 seconds
+Refreshing native plugins compatible for Editor in 2.04 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.809 seconds
+Domain Reload Profiling: 1656ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (43ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (599ms)
+		LoadAssemblies (368ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (302ms)
+			TypeCache.Refresh (295ms)
+				TypeCache.ScanAssembly (283ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (809ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (441ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (68ms)
+			ProcessInitializeOnLoadAttributes (308ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3113 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (35.5 KB). Loaded Objects now: 3630.
+Memory consumption went from 122.3 MB to 122.3 MB.
+Total: 3.421400 ms (FindLiveObjects: 0.256200 ms CreateObjectMapping: 0.084400 ms MarkObjects: 3.013800 ms  DeleteObjects: 0.065800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.019 seconds
+Refreshing native plugins compatible for Editor in 2.05 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.960 seconds
+Domain Reload Profiling: 1976ms
+	BeginReloadAssembly (224ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (54ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (670ms)
+		LoadAssemblies (446ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (334ms)
+			TypeCache.Refresh (327ms)
+				TypeCache.ScanAssembly (314ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (960ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (458ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (328ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 1.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3119 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (35.3 KB). Loaded Objects now: 3639.
+Memory consumption went from 122.4 MB to 122.4 MB.
+Total: 3.597900 ms (FindLiveObjects: 0.278700 ms CreateObjectMapping: 0.082300 ms MarkObjects: 3.146200 ms  DeleteObjects: 0.089500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4161.789795 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/2.png
+  artifactKey: Guid(eb5612d6696aa1a45a80804832ac38fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/2.png using Guid(eb5612d6696aa1a45a80804832ac38fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9bdb1419ed6f8cf043ff9c303e7fe4') in 0.183908 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/27.png
+  artifactKey: Guid(da89be7b64be40b4d99284a48b25950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/27.png using Guid(da89be7b64be40b4d99284a48b25950f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a57a6366e27d8adcf5beab24af48efe5') in 0.039679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/15.png
+  artifactKey: Guid(d50a95402cfbd70469ef03d3aeb22ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/15.png using Guid(d50a95402cfbd70469ef03d3aeb22ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ac7e214cdd89e08273dd39e8889e584') in 0.045272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/21.png
+  artifactKey: Guid(57d90ab010575844ca0e38e2011a4e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/21.png using Guid(57d90ab010575844ca0e38e2011a4e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fcba8285d2279f3b3261ed1c293529') in 0.038512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/11.png
+  artifactKey: Guid(490bd27985e36994eb5da7dbd1fb4592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/11.png using Guid(490bd27985e36994eb5da7dbd1fb4592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9edc4a3a73478838c0032198334ea1a7') in 0.042932 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/39.png
+  artifactKey: Guid(fc25f18bf1cb4314babfaaaf9da9abac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/39.png using Guid(fc25f18bf1cb4314babfaaaf9da9abac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd927055893a554b3058baefc91b64ecb') in 0.029539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/20.png
+  artifactKey: Guid(d6c7ef0e14cbb184e835dd93f92d756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/20.png using Guid(d6c7ef0e14cbb184e835dd93f92d756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e81dc0643bb5280d6118c517c7d03c6') in 0.034436 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/16.png
+  artifactKey: Guid(ba8edccf3bd690c4ba5cd0c42b5673e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/16.png using Guid(ba8edccf3bd690c4ba5cd0c42b5673e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e8024c27e4476fccd863f4de770158') in 0.040058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/14.png
+  artifactKey: Guid(a27ec6276aa330e40b3aa876275798ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/14.png using Guid(a27ec6276aa330e40b3aa876275798ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f8226f3a218f4708d9defaac68e817') in 0.030580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/31.png
+  artifactKey: Guid(b8018d10c0bd21c489e0b5fac1c5dc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/31.png using Guid(b8018d10c0bd21c489e0b5fac1c5dc13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2866b0c698161f91ccee7ea9d43977ed') in 0.034707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/35.png
+  artifactKey: Guid(6ab5e8afc04e41c4ba35801f1d068a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/35.png using Guid(6ab5e8afc04e41c4ba35801f1d068a39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53bf0b5ca4ceff986bdd674f977abe56') in 0.040792 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/25.png
+  artifactKey: Guid(8ae3b8567a008604f8ce73273ffb675c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/25.png using Guid(8ae3b8567a008604f8ce73273ffb675c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8d5be1d7ef488d99cb51a13e5b4bf6') in 0.029260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/13.png
+  artifactKey: Guid(ea83750d452eb8c4d8a247309bb160ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/13.png using Guid(ea83750d452eb8c4d8a247309bb160ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e51c23f9784f83c59dae7b3192af2f4e') in 0.029254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/29.png
+  artifactKey: Guid(0e96fddd009c0dd43849b20e8ea0149c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/29.png using Guid(0e96fddd009c0dd43849b20e8ea0149c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca7bca904fb56a717c0d4144cde82ab') in 0.028741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/38.png
+  artifactKey: Guid(d6a21d74ac1674643ab812feff777c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/38.png using Guid(d6a21d74ac1674643ab812feff777c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3de8e0f375c4dfb7e0665b281fa491d') in 0.028438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/33.png
+  artifactKey: Guid(4f69417498cf4c4428212eb72cbce220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/33.png using Guid(4f69417498cf4c4428212eb72cbce220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246e79f935c6e3fe7c871228185c8939') in 0.029861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/42.png
+  artifactKey: Guid(eff0e9d913ae99549aca95e758972ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/42.png using Guid(eff0e9d913ae99549aca95e758972ff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828ad2e151ff10f6cd50651f40478928') in 0.031021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/17.png
+  artifactKey: Guid(16784aa5cf0682f44be99ada7e87304b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/17.png using Guid(16784aa5cf0682f44be99ada7e87304b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '993fdde5411da05e2aac4d6e8cd4ac43') in 0.029070 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/3.png
+  artifactKey: Guid(0e9c189bc09deaa41998f12be950a7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/3.png using Guid(0e9c189bc09deaa41998f12be950a7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '799e118dada800a87495a7284f99dd78') in 0.031808 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/26.png
+  artifactKey: Guid(b633e862fe58738478d388a8984b67bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/26.png using Guid(b633e862fe58738478d388a8984b67bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf973ade853e37195377b0605f33456b') in 0.031565 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/8.png
+  artifactKey: Guid(3a879d501bfbea546ae5a29af4b27035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/8.png using Guid(3a879d501bfbea546ae5a29af4b27035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b908de66983a6b11159f7ae88209d2cf') in 0.028026 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.924795 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/46.png
+  artifactKey: Guid(1d12344c80df9a64bb26d4b6c7ffc2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/46.png using Guid(1d12344c80df9a64bb26d4b6c7ffc2cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79f578a7e2503197bfe8cabbfc62e425') in 0.025995 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/51.png
+  artifactKey: Guid(a234860461ee2f244afdc41233269c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/51.png using Guid(a234860461ee2f244afdc41233269c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b737c4b063550cc696fc2b9a492bba23') in 0.029177 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/buy.png
+  artifactKey: Guid(2ad20e3af94fb9c438bad798abb35399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/buy.png using Guid(2ad20e3af94fb9c438bad798abb35399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfaacec1c423228900c5b6fbe940bba8') in 0.042588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/48.png
+  artifactKey: Guid(1bd2f9cadc8f4b047ada7c30a0765022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/48.png using Guid(1bd2f9cadc8f4b047ada7c30a0765022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c825fc8d8b35f55a79416728d4453e') in 0.028420 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/47.png
+  artifactKey: Guid(c33ec48ee87d1d848b8a4bcbd0dc79a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/47.png using Guid(c33ec48ee87d1d848b8a4bcbd0dc79a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b83c9960c22970a3fb50c46234684f') in 0.029338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/50.png
+  artifactKey: Guid(b5364470eaf00cf4194df2fec97918ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/50.png using Guid(b5364470eaf00cf4194df2fec97918ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '800c4dade008b8d12b2ea009dba42011') in 0.041172 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.360267 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/frog.png
+  artifactKey: Guid(c5c124c615028a741bf07f2cc79ec189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/frog.png using Guid(c5c124c615028a741bf07f2cc79ec189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da5217c15482a48f9afdfbba78f8ebf') in 0.032157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/start.png
+  artifactKey: Guid(2b670f90a30bf0044a38c1a3a42638bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/start.png using Guid(2b670f90a30bf0044a38c1a3a42638bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a063b8394e420b3ec226492242f648f') in 0.031873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/select.png
+  artifactKey: Guid(44d5a0988a40a264e9e1c166d4927e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/select.png using Guid(44d5a0988a40a264e9e1c166d4927e1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfcd357dbeda7505ed4ab588560a08a4') in 0.028049 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/menu.png
+  artifactKey: Guid(bb097d610cdb8d540b41bba90a3be0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/menu.png using Guid(bb097d610cdb8d540b41bba90a3be0cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d138f35761be7fc3fbb9f9b5766029') in 0.031831 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 14.753093 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/3.png
+  artifactKey: Guid(06cd132bf5648b84dafdd80f471dfed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/3.png using Guid(06cd132bf5648b84dafdd80f471dfed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532df6b122a2958707752f017e0cad72') in 0.049882 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000097 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/16.png
+  artifactKey: Guid(1d1de31431708a443bc727ef50db2e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/16.png using Guid(1d1de31431708a443bc727ef50db2e5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5411ef446e75bd29f33edad1dd90e6bb') in 0.026571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/31.png
+  artifactKey: Guid(1c9160270d8205d47b6314353152b40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/31.png using Guid(1c9160270d8205d47b6314353152b40e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f6a8612d51945fbb028751f4cd88d1') in 0.036456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/29.png
+  artifactKey: Guid(e5ba6e1f170f0644ca68989abc5d74ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/29.png using Guid(e5ba6e1f170f0644ca68989abc5d74ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84712d999784e302fbda49d4a1f39013') in 0.029883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/34.png
+  artifactKey: Guid(fe96cc761204c1a479ced8b0cae84874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/34.png using Guid(fe96cc761204c1a479ced8b0cae84874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518448d742fce6d8573e9ce9fc231e82') in 0.033641 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/27.png
+  artifactKey: Guid(6387917110e84cd4cbdefc66e0c1b261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/27.png using Guid(6387917110e84cd4cbdefc66e0c1b261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a698424a24f63b8edcccfd61eb3018c') in 0.045678 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/15.png
+  artifactKey: Guid(b80c8e76553781a4883cd0261c67173a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/15.png using Guid(b80c8e76553781a4883cd0261c67173a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a7b60a10add0932c901d4c4bf86d98') in 0.027687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/25.png
+  artifactKey: Guid(1e21724970e541a46a06a2a8c1508d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/25.png using Guid(1e21724970e541a46a06a2a8c1508d40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c193ac6303df1646edb8578c349af53') in 0.028961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/23.png
+  artifactKey: Guid(80d01d901e7dec1469568e84577ee213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/23.png using Guid(80d01d901e7dec1469568e84577ee213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a10d61fcb2f228970dba143fde75446') in 0.026412 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/35.png
+  artifactKey: Guid(20fefba889dd91245b095f2ec532e9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/35.png using Guid(20fefba889dd91245b095f2ec532e9a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd94ae202436fba630645e5081dc9e9e0') in 0.030316 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/38.png
+  artifactKey: Guid(c96168abc5dbb5241935fa67919f5b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/38.png using Guid(c96168abc5dbb5241935fa67919f5b20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3188f7e6d83a886c237eb4ea4a64d8d') in 0.030559 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/21.png
+  artifactKey: Guid(83a4667097f37584488755b7e43cebce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/21.png using Guid(83a4667097f37584488755b7e43cebce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc98879154316736e2ff18ad91783021') in 0.027634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Icon/39.png
+  artifactKey: Guid(71d77c75131fddf418778bcc2f796e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Icon/39.png using Guid(71d77c75131fddf418778bcc2f796e33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8197ff1f157036e86936bb15455e7f6b') in 0.028238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.475499 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Pic/3.png
+  artifactKey: Guid(3b8f85127a622924fb29bdb2f87e3bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Pic/3.png using Guid(3b8f85127a622924fb29bdb2f87e3bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44787639a373ac0109bec0ee86e5ae00') in 0.060350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Pic/17.png
+  artifactKey: Guid(e07c68a3fe1a88f4c868d70eab608fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Pic/17.png using Guid(e07c68a3fe1a88f4c868d70eab608fdc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '300854ef7224251e2ad2a500c929c8b4') in 0.034889 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Pic/22.png
+  artifactKey: Guid(0c901561502d4d443bdf6a5fd9322dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Pic/22.png using Guid(0c901561502d4d443bdf6a5fd9322dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cea4e9ce085c59cbbeaa24555629a2f') in 0.035771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000659 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Pic/25.png
+  artifactKey: Guid(a066b8404b7aa1646826ad5bb265c516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Pic/25.png using Guid(a066b8404b7aa1646826ad5bb265c516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af87cd3290201d5de96e42c237f21aa') in 0.037650 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Pic/21.png
+  artifactKey: Guid(5fa2b8b21fb7ce94bbc0ba676b8b0eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Pic/21.png using Guid(5fa2b8b21fb7ce94bbc0ba676b8b0eec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847c16f048cd024d4cc04323144111a0') in 0.034521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Pic/13.png
+  artifactKey: Guid(9c96d4f0aa9d6194e86fe3ec70284176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Pic/13.png using Guid(9c96d4f0aa9d6194e86fe3ec70284176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95c641ae0f83f6219a653bd5a368ca72') in 0.035628 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Pic/chips.png
+  artifactKey: Guid(dbec7bfadea048e4c805891938a1d045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Pic/chips.png using Guid(dbec7bfadea048e4c805891938a1d045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07c635901ae974c4f254fdc2d5a9ea5d') in 0.038929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.626913 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Pic/green chips/10.png
+  artifactKey: Guid(5d5fa17b0aa09eb46ad223e9873d77da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Pic/green chips/10.png using Guid(5d5fa17b0aa09eb46ad223e9873d77da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e2a31ee50676e5dafab97481285ee3') in 0.033033 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Pic/green chips/100.png
+  artifactKey: Guid(67306f3a44a2adb4e868b6a12ddf051b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Pic/green chips/100.png using Guid(67306f3a44a2adb4e868b6a12ddf051b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83bca2017b63041cd90c377d367fb8e8') in 0.029307 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 8.616881 seconds.
+  path: Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineEndPlayback.png
+  artifactKey: Guid(6952cd3b0f88917449a8fa4d19fc5009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.unity.timeline/Editor/StyleSheets/Images/LightSkin/TimelineEndPlayback.png using Guid(6952cd3b0f88917449a8fa4d19fc5009) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f575ae47e5c36ad5a659f0ad93625dce') in 0.029163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity Projects\SceneManager\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.926 seconds
+Refreshing native plugins compatible for Editor in 2.09 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.057 seconds
+Domain Reload Profiling: 1980ms
+	BeginReloadAssembly (173ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (38ms)
+	LoadAllAssembliesAndSetupDomain (654ms)
+		LoadAssemblies (376ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (352ms)
+			TypeCache.Refresh (344ms)
+				TypeCache.ScanAssembly (331ms)
+			ScanForSourceGeneratedMonoScriptInfo (2ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (1058ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (483ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (342ms)
+			ProcessInitializeOnLoadMethodAttributes (24ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 1.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3118 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (35.5 KB). Loaded Objects now: 3689.
+Memory consumption went from 122.4 MB to 122.3 MB.
+Total: 3.650500 ms (FindLiveObjects: 0.283400 ms CreateObjectMapping: 0.119900 ms MarkObjects: 3.170500 ms  DeleteObjects: 0.074800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 60.019513 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_BackHome.prefab
+  artifactKey: Guid(f4e1b35e975b6e243b81e4b4a8d4176e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_BackHome.prefab using Guid(f4e1b35e975b6e243b81e4b4a8d4176e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db2db6c34651941a25a07fe7cb615b3') in 0.066404 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Level_4.prefab
+  artifactKey: Guid(054e6dc52338fbd47b61e145a9fd3780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Level_4.prefab using Guid(054e6dc52338fbd47b61e145a9fd3780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fd400524be2760527e709af71f27e15') in 0.003963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Level_12.prefab
+  artifactKey: Guid(36f1c62389f21be448bca9467506093d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Level_12.prefab using Guid(36f1c62389f21be448bca9467506093d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa7f6d15923e57889622a87c0f11fdd') in 0.004160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_LeftPage.prefab
+  artifactKey: Guid(fda6cc3bc38461f4c91d8c90545e9d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_LeftPage.prefab using Guid(fda6cc3bc38461f4c91d8c90545e9d5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61d63b9c545402cdfcb09e83b149a27d') in 0.004254 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Level_1.prefab
+  artifactKey: Guid(adef9f4746a8a8a4ab5c06d589aea9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Level_1.prefab using Guid(adef9f4746a8a8a4ab5c06d589aea9e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81beae4af89090b33015908b70f64ed2') in 0.004055 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_RightPage.prefab
+  artifactKey: Guid(ed59e3bb23f69ce4fb9dc9a59bd1357f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_RightPage.prefab using Guid(ed59e3bb23f69ce4fb9dc9a59bd1357f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '970930137ab3b51feefef61b8f01f9da') in 0.003647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Level_2.prefab
+  artifactKey: Guid(92a48fe9e3da4454ba5089d468200c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Level_2.prefab using Guid(92a48fe9e3da4454ba5089d468200c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950f3ca3a765ed0676afd1bbd8bd7e86') in 0.003767 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Level_9.prefab
+  artifactKey: Guid(2a295393502dfcc408f59294eaf31811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Level_9.prefab using Guid(2a295393502dfcc408f59294eaf31811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87e44ead88416f4814350c2d6990f8c3') in 0.003486 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Level_6.prefab
+  artifactKey: Guid(3ae91fd3b01dd4f499dca9258d92da7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Level_6.prefab using Guid(3ae91fd3b01dd4f499dca9258d92da7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7861ee5f566eb60a232fdaf87bb80b1d') in 0.003911 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Ok.prefab
+  artifactKey: Guid(2597bad932a62b44aa110e32dff47c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Ok.prefab using Guid(2597bad932a62b44aa110e32dff47c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6cfa65fccbb49246f29c778b095e0e9') in 0.004067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Close.prefab
+  artifactKey: Guid(6badadffe5f463549a73039c034540bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Close.prefab using Guid(6badadffe5f463549a73039c034540bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca99e252fe10dd36fb704bcb08ef564') in 0.003974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Level_8.prefab
+  artifactKey: Guid(399cc627d1f7cc443943ef65426e91e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Level_8.prefab using Guid(399cc627d1f7cc443943ef65426e91e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873289cd61136f8aefd3fda0ca2db832') in 0.003415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Social_F.prefab
+  artifactKey: Guid(400c9ee13dfd87f48b0810cd2e81575a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Social_F.prefab using Guid(400c9ee13dfd87f48b0810cd2e81575a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7265be3b31c58e3ab7b9a488ec6ad9') in 0.003607 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Level_5.prefab
+  artifactKey: Guid(bf95997a6090afb4a8f2ae0133a2102e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Level_5.prefab using Guid(bf95997a6090afb4a8f2ae0133a2102e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e83d8aa2152007ff965e987818ec985b') in 0.003812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Level_11.prefab
+  artifactKey: Guid(43d885657ec210a4ea722f4dcc3ce01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Level_11.prefab using Guid(43d885657ec210a4ea722f4dcc3ce01b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c786ee4c3f8faeb825c362d9ab5b9974') in 0.002576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Social_T.prefab
+  artifactKey: Guid(a095c1c50f3e0984fad4bb416844b9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Social_T.prefab using Guid(a095c1c50f3e0984fad4bb416844b9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e508269703dd56196bfa70d51b7e7d1') in 0.002557 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_ShareLink.prefab
+  artifactKey: Guid(85a649567faa58b46b54fcf53a95503f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_ShareLink.prefab using Guid(85a649567faa58b46b54fcf53a95503f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c2c09f9444b96b14c0424c29787ad6') in 0.010584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 68
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Level_7.prefab
+  artifactKey: Guid(cd50c415c15e41b49ba1b7dea3e95d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Level_7.prefab using Guid(cd50c415c15e41b49ba1b7dea3e95d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19b6217c1133f972a5bdc949d52c5efd') in 0.003116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Level_3.prefab
+  artifactKey: Guid(fb2c77132ed9097488d436c1df619255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Level_3.prefab using Guid(fb2c77132ed9097488d436c1df619255) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '467b8dd6c98cb00a26cc434342bbfde4') in 0.002944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Questions.prefab
+  artifactKey: Guid(ba5d780e1e2787b4db1dcefb8ec42026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Button/bt_Questions.prefab using Guid(ba5d780e1e2787b4db1dcefb8ec42026) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f8d5ad53430b962f1901b73d301617') in 0.002425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 4.030568 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Image/img_navView_Yellow.prefab
+  artifactKey: Guid(7c9f35037e2ae22489060657f2374668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Image/img_navView_Yellow.prefab using Guid(7c9f35037e2ae22489060657f2374668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bec2257772996a9ca62d3acd5344d24') in 0.003999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Prefab/Image/img_TextBox.prefab
+  artifactKey: Guid(7677f0b683bb1d54b81687dc6177a244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Prefab/Image/img_TextBox.prefab using Guid(7677f0b683bb1d54b81687dc6177a244) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847b625d35f310bb73df3772efb0443e') in 0.003080 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 8.524871 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/additional buttons/L.png
+  artifactKey: Guid(71617f2aa07bc454cbdc7042f3974ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/additional buttons/L.png using Guid(71617f2aa07bc454cbdc7042f3974ec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc9c003ae44f95b4f1b2ab09c3378b5c') in 0.079474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/additional buttons/ZR.png
+  artifactKey: Guid(ecfdb97f11633744099fe2a36f310ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/additional buttons/ZR.png using Guid(ecfdb97f11633744099fe2a36f310ebe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d087d7e1a980a67769f73715ba306b2') in 0.055261 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.364850 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/STXC/T.png
+  artifactKey: Guid(c905914f3abe8e64fb3c618b2ccaed16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/STXC/T.png using Guid(c905914f3abe8e64fb3c618b2ccaed16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0001ac638c8b505ef1404f48e8918d8') in 0.075751 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.909374 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/triangle/3.png
+  artifactKey: Guid(9afc04eb1499fd849b9db8d12f82b989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/triangle/3.png using Guid(9afc04eb1499fd849b9db8d12f82b989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dad1de36d7f7ad216f7bac2dd49f344') in 0.057951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.616675 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/XYAB/x.png
+  artifactKey: Guid(bf34ab07725ccf148a6b573b6a172f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/XYAB/x.png using Guid(bf34ab07725ccf148a6b573b6a172f51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f940867fa04d453c06373425e4da238b') in 0.056892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.528647 seconds.
+  path: Assets/Mobile Game GUI Vector Pack/Sprite/Button/XYAB_Color/x.png
+  artifactKey: Guid(f98e37f212851bb4a8acf977243f0657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Mobile Game GUI Vector Pack/Sprite/Button/XYAB_Color/x.png using Guid(f98e37f212851bb4a8acf977243f0657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85139393331e9c0b678718f7bcc97f49') in 0.039152 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
